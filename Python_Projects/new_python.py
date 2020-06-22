@@ -1,4 +1,3 @@
-import jieba
-a=1
-b=2
-print("1")
+import pandas as pd
+import operator
+from matplotlib import pylab as plt

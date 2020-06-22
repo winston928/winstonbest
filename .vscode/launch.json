@@ -5,22 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "使用本机 Chrome 调试",
-            "type": "chrome",
-            "request": "launch",
-             "file": "${file}",
-            "runtimeExecutable": "C:\\Users\\winston\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", // 改成您的 Chrome 安装路径
-            "sourceMaps": true,
-            "webRoot": "${workspaceRoot}",
-            "userDataDir":"${tmpdir}",
-            "port":9222
-        },
-        {
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "使用本机 Chrome 调试",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${file}",
+            "runtimeExecutable": "C:\\Users\\winston\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", // 改成您的 Chrome 安装路径
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "userDataDir": "${tmpdir}",
+            "port": 9222
         }
     ]
 }
